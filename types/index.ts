@@ -5,11 +5,14 @@ import { Timestamp } from "firebase/firestore";
 // ─────────────────────────────────────────────
 export interface RawExcelRow {
   "Project Title"?: string;
-  "Student Names (2–4 Students)"?: string;
+  "Student 1"?: string;
+  "Student 2"?: string;
+  "Student 3"?: string;
+  "Student 4"?: string;
   "Supervisor Name"?: string;
   "Co-Supervisor Name"?: string;
   "Industrial Partner"?: string;
-  SDG?: string;
+  "SDG"?: string;
 }
 
 // ─────────────────────────────────────────────
