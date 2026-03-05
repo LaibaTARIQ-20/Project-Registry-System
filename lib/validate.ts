@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { RawExcelRow, InvalidRow } from "@/types";
 
 export function validateRow(row: RawExcelRow, rowNumber: number): string | null {
